@@ -82,6 +82,8 @@ const putHelpful = function (answer_id) {
  WHERE id = ${answer_id}`)
 };
 
+
+
 const putReport = function (answer_id) {
   return pool.query(`UPDATE answers
   SET answers_reported = 1
