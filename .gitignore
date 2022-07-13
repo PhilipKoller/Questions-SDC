@@ -2,4 +2,4 @@
 .env
 newrelic_agent.log
 newrelic.js
-node_modeules
+node_modules
