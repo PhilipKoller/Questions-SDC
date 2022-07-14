@@ -1,7 +1,6 @@
-//require('newrelic');
+require('newrelic');
 const express = require('express')
 const route = require('./Server/routes');
-//const db = require('./Database/ETL_postgres.js')
 const app = express();
 const PORT = 3000;
 const path = require('path');

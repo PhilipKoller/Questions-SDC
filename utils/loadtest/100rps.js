@@ -15,7 +15,7 @@ const generateRandomProductId = () => Math.floor(Math.random() * 10000)
 //http://localhost:3000/qa/questions?product_id=37312&page=1&count=500
 
 export default function () {
-  const url = `${baseUrl}?product_id=${generateRandomProductId()}&page=1&count=500`
+  const url = `${baseUrl}/${generateRandomProductId()}`
   const res = http.get(url);
   sleep(1);
   check(res, {
