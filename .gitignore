@@ -1,5 +1,5 @@
-.csv
-.env
+*.csv
+*.env
 newrelic_agent.log
 newrelic.js
 node_modules
