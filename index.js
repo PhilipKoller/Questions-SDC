@@ -15,7 +15,7 @@ app.get('/loaderio-67b2613547e507a9ca45d3af1fcccd84', (req, res) => {
 }
 );
 
-//app.use('/qa', route);
+app.use('/qa', route);
 
 
 
