@@ -11,18 +11,18 @@ node.js express
 Looking at the way the data was structured in the cvs files given and that multiple users will be accessing data at the same time. I chose a Relational Database Managment System. While researching I found that postgres could handle very concurrency better than MySQL or others so I chose PostgreSQL.
 
 
-# Schema 
+### Schema 
 ![alt text](https://github.com/PhilipKoller/Questions-SDC/blob/main/Schema.png)
 
 
-# Extraction, Transform, and Load
+### Extraction, Transform, and Load
 The extration was done by the client when they gave us the csvs containing all the data. Loading was done through a script that created tables imported data. The transforamtion was taking out the duplicate columns from the millions of rows that were given. 
 
 
 ## Cloud Service 
 The cloud chosen for hosting was AWS. There I scaled the application horizontally Using 3 AWS T2.micro instances  
 
-# Testing 
+## Testing 
 ## K6
 Before moving onto AWS the API was tested using K6 on my local machine. Since my machine contains better hardware than a T2.micro instance the goals to reach were set much higher. 
 
