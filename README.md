@@ -3,7 +3,7 @@
 ## Overview 
  Given an existing retail web application whos backend could not handle the increasing load of web traffic. My teams job was to do a complete redesign of the backend and be able to handle the ever increasing amount of users. I was specifically tasked with the questions and answers sevice of the application.
 
-## Technology Choices 
+# Technology Choices 
 ### Server
 node.js express 
 
@@ -11,11 +11,11 @@ node.js express
 Looking at the way the data was structured in the cvs files given and that multiple users will be accessing data at the same time. I chose a Relational Database Managment System. While researching I found that postgres could handle very concurrency better than MySQL or others so I chose PostgreSQL.
 
 
-## Schema 
+# Schema 
 ![alt text](https://github.com/PhilipKoller/Questions-SDC/blob/main/Schema.png)
 
 
-## Extraction, Transform, and Load
+# Extraction, Transform, and Load
 The extration was done by the client when they gave us the csvs containing all the data. Loading was done through a script that created tables imported data. The transforamtion was taking out the duplicate columns from the millions of rows that were given. 
 
 
