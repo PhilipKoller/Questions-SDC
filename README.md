@@ -37,8 +37,8 @@ I used NGINX because it has a reputation of being a well known load balancer. Th
 
 
 # Possible Improvements 
-More T2.micro instances to continue horizontally scaling
-Use instances with better hardware (vertically scaling)
-Tweak NGINX to use IP hash routing
-Remove middleware (New Relic etc..)
+* More T2.micro instances to continue horizontally scaling
+* Use instances with better hardware (vertically scaling)
+* Tweak NGINX to use IP hash routing
+* Remove middleware (New Relic etc..)
 
