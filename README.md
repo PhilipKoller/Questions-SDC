@@ -11,8 +11,7 @@ node.js express
 Looking at the way the data was structured in the cvs files given and that multiple users will be accessing data at the same time. I chose a Relational Database Managment System. While researching I found that postgres could handle very concurrency better than MySQL or others so I chose PostgreSQL.
 
 
-#### Schema 
-### Use-Case Diagram
+## Schema 
 ![alt text](https://github.com/PhilipKoller/Questions-SDC/blob/main/Schema.png)
 
 
