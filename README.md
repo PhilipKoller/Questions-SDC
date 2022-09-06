@@ -30,7 +30,7 @@ Before moving onto AWS the API was tested using K6 on my local machine. Since my
 
 # Loader.io
 Loader.io was used to test the application once it was moved onto AWS. This service would allow me to simulate a large load on the application.
-![alt text](https://github.com/PhilipKoller/Questions-SDC/blob/main/Schema.png)
+![alt text](https://github.com/PhilipKoller/Questions-SDC/blob/main/Loader.png)
 
 # NGINX
 I used NGINX because it has a reputation of being a well known load balancer. The routing method I used was least-connected.
