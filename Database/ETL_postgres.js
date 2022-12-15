@@ -32,7 +32,6 @@ pool.query(`DROP TABLE IF EXISTS questions`)
         helpful integer,
         PRIMARY KEY (id))`)
       .then(success => {
-        console.log('2. CREATE TABLE QUESTIONS')
         pool.query(`COPY questions FROM '${path.join(__dirname, 'questions.csv')}' DELIMITER ',' CSV HEADER;`)
           .then(() => {
             console.log('3. imported questions.csv');
@@ -66,7 +65,6 @@ pool.query(`DROP TABLE IF EXISTS questions`)
 
 pool.query(`DROP TABLE IF EXISTS answers`)
   .then(() => {
-    console.log(' 1. Answers TABLE DROPPED')
     pool.query(`CREATE TABLE answers
     (
         id integer NOT NULL,
@@ -80,7 +78,6 @@ pool.query(`DROP TABLE IF EXISTS answers`)
         PRIMARY KEY (id)
     )`)
       .then(success => {
-        console.log(' 2. CREATE TABLE answers')
         pool.query(`COPY answers FROM '${path.join(__dirname, 'answers.csv')}' DELIMITER ',' CSV HEADER;`)
           .then(() => {
             console.log(' 3. imported answers.csv');
