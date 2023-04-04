@@ -16,7 +16,7 @@ Looking at the way the data was structured in the cvs files given and that multi
 
 
 ### Extraction, Transform, and Load
-The extration was done by the client when they gave us the csvs containing all the data. Loading was done through a script that created tables imported data. The transforamtion was taking out the duplicate columns from the millions of rows that were given. 
+The extration was done by the client when they gave us the csvs containing all the data. Loading was done through a script that created tables imported data. The transforamtion was taking out the duplicate rows from the millions of rows that were given. 
 
 
 ## Cloud Service 
